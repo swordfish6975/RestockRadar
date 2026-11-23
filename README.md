@@ -19,8 +19,14 @@ seller and right-console checks.
 
 ## Quick start
 
-You need the [.NET 10 SDK](https://dotnet.microsoft.com/download) and Google Chrome. If Chrome isn't installed,
-a copy is downloaded on the first run.
+**Easiest: download the Windows release.** Grab `RestockRadar-vX.Y.Z-win-x64.zip` from
+[Releases](https://github.com/swordfish6975/RestockRadar/releases/latest) and unzip it anywhere. It's a single
+`RestockRadar.exe` with .NET built in, so nothing else needs installing. Put `appsettings.local.json` (step 2) next to
+the exe, and run `RestockRadar.exe` instead of `dotnet run --project RestockRadar` in the commands below.
+
+**From source:** you need the [.NET 10 SDK](https://dotnet.microsoft.com/download).
+
+Either way you need Google Chrome. If it isn't installed, a copy is downloaded on the first run.
 
 **1. Make a Telegram bot.** In Telegram, message **@BotFather**, send `/newbot` and copy the token it gives you.
 Then send your new bot any message, so it knows where to reach you.
