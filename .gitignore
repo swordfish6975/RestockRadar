@@ -1,0 +1,21 @@
+# Build output
+bin/
+obj/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Secrets - never commit these. Real tokens and passwords go in appsettings.local.json.
+appsettings.local.json
+appsettings.*.local.json
+.env
+Telegram.txt
+
+# Runtime data written by the app (state, screenshots, Chrome profile with your Amazon session, logs)
+browser-profile/
+data/
+*.log

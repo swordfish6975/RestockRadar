@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Watch all": { "commandName": "Project" },
+    "Once": { "commandName": "Project", "commandLineArgs": "--once" },
+    "Probe target-pro": { "commandName": "Project", "commandLineArgs": "--probe target-pro" },
+    "Amazon login": { "commandName": "Project", "commandLineArgs": "--login" },
+    "Test alert": { "commandName": "Project", "commandLineArgs": "--test-alert" }
+  }
+}
